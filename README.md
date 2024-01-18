@@ -1,4 +1,9 @@
-⚠ This library is no longer maintained ⚠️
+⚠ This library is now lazily maintained ⚠️ Your PRs are welcome, but being Im fairly lazy I may not get to them.
+
+# Update
+This is a fork of the original library by [truizlop]. I've removed android support and butterkife dependencies and added androidx.
+Ive bumped the compileSdk to 33, the minSdk to 29, and the targetSdk to 33. I've also updated the gradle plugin to 8.2.1 and the gradle wrapper to 8.3.
+The being lazy part is a joke. Please feel free to put up PR's and I'll get to them as soon as I can.
 
 # SectionedRecyclerView [ ![Download](https://api.bintray.com/packages/truizlop/maven/sectionedrecyclerview/images/download.svg) ](https://bintray.com/truizlop/maven/sectionedrecyclerview/_latestVersion) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SectionedRecyclerView-green.svg?style=flat)](https://android-arsenal.com/details/1/2165)
 An adapter to create Android RecyclerViews with sections, providing headers and footers.

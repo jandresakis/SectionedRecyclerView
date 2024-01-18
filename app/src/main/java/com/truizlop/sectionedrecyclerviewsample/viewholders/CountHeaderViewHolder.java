@@ -15,25 +15,23 @@
  */
 package com.truizlop.sectionedrecyclerviewsample.viewholders;
 
-import android.support.v7.widget.RecyclerView;
+
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.recyclerview.widget.RecyclerView;
 import com.truizlop.sectionedrecyclerviewsample.R;
-
-import butterknife.Bind;
-import butterknife.ButterKnife;
 
 /**
  * Created by tomas on 15/07/15.
  */
 public class CountHeaderViewHolder extends RecyclerView.ViewHolder {
 
-    @Bind({R.id.title}) TextView textView;
+    TextView textView;
 
     public CountHeaderViewHolder(View itemView) {
         super(itemView);
-        ButterKnife.bind(this, itemView);
+        textView = itemView.findViewById(R.id.title);
     }
 
     public void render(String text){

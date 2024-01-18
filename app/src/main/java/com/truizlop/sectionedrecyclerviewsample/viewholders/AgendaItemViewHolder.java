@@ -15,22 +15,20 @@
  */
 package com.truizlop.sectionedrecyclerviewsample.viewholders;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.truizlop.sectionedrecyclerviewsample.R;
+import androidx.recyclerview.widget.RecyclerView;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
+import com.truizlop.sectionedrecyclerviewsample.R;
 
 public class AgendaItemViewHolder extends RecyclerView.ViewHolder {
 
-    @Bind({R.id.title}) TextView textView;
+    TextView textView;
 
     public AgendaItemViewHolder(View itemView) {
         super(itemView);
-        ButterKnife.bind(this, itemView);
+        textView = itemView.findViewById(R.id.title);
     }
 
     public void render(String text){

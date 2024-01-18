@@ -15,10 +15,12 @@
  */
 package com.truizlop.sectionedrecyclerview;
 
-import android.support.annotation.IdRes;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.annotation.IdRes;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by tomas on 01/06/15.
