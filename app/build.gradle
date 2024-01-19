@@ -24,7 +24,7 @@ android {
 }
 
 dependencies {
-    implementation "com.jandresakis.sectionedrecyclerview:1.2.2"
+    implementation 'com.github.jandresakis:SectionedRecyclerView:1.2.2'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
 }
