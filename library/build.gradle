@@ -46,5 +46,6 @@ publishing {
                 password = "$tempGithubToken"
             }
         }
+        mavenLocal()
     }
 }
