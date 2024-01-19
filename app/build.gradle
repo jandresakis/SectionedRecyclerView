@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'maven-publish'
 
 android {
     compileSdk 33
@@ -23,7 +24,7 @@ android {
 }
 
 dependencies {
-    implementation project(':library')
+    implementation "com.jandresakis.sectionedrecyclerview:1.2.2"
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
 }
